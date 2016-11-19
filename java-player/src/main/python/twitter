@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+      
+      <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+      <title>twitter 1.17.1 : Python Package Index</title>
+      <meta content="twitter,IRC,command-line tools,web 2.0"/>
+      <meta content="An API and command-line toolset for Twitter (twitter.com)"/>
+       <link rel="alternate" type="application/rss+xml" title="RSS: 40 latest updates" href="https://pypi.python.org/pypi?:action=rss"/>
+       <link rel="alternate" type="application/rss+xml" title="RSS: 40 newest packages" href="https://pypi.python.org/pypi?:action=packages_rss"/>
+       <link rel="stylesheet" media="screen" href="/static/styles/screen-switcher-default.css" type="text/css"/>
+       <link media="screen" href="/static/styles/netscape4.css" type="text/css" rel="stylesheet"/>
+       <link media="print" href="/static/styles/print.css" type="text/css" rel="stylesheet"/>
+       <link media="screen" href="/static/styles/largestyles.css" type="text/css" rel="alternate stylesheet" title="large text"/>
+       <link media="screen" href="/static/styles/defaultfonts.css" type="text/css" rel="alternate stylesheet" title="default fonts"/>
+       <link rel="stylesheet" media="screen" href="/static/css/docutils.css" type="text/css"/>
+       <link rel="stylesheet" media="screen" href="/static/css/pygments.css" type="text/css"/>
+
+       <!-- allow pypi to override the standard pydotorg/docutils/etc. styles -->
+       <link rel="stylesheet" href="/static/css/pypi.css" type="text/css"/>
+       <link media="screen" rel="stylesheet" href="/static/css/pypi-screen.css" type="text/css"/>
+
+       
+       <meta name="google-site-verification" content="NSgF04qslVV4P7nymxJDSkWVK09zfdPTxgZfU3dNSoQ"/>
+       
+
+       
+ <meta name="keywords" content="twitter,IRC,command-line tools,web 2.0"/>
+ <meta name="description" content="An API and command-line toolset for Twitter (twitter.com)"/>
+ <link rel="meta" title="DOAP" type="application/rdf+xml" href="/pypi?:action=doap&amp;name=twitter&amp;version=1.17.1"/>
+ <style type="text/css">
+  table.form th {white-space: pre;}
+ </style>
+
+
+       <style type="text/css">
+       </style>
+    </head>
+    <body>
+     
+
+      <!--  Logo  -->
+      <h1 id="logoheader">
+       <a accesskey="1" href="http://www.python.org" id="logolink">
+          <img src="/static/images/python-logo.png" alt="homepage" border="0" id="logo"/>
+       </a>
+      </h1>
+      <!--  Skip to Navigation  -->
+      <div class="skiptonav"><a accesskey="2" href="#left-hand-navigation"><img src="/static/images/trans.gif" alt="skip to navigation" border="0" id="skiptonav"/></a></div>
+      <div class="skiptonav"><a accesskey="3" href="#content-body"><img src="/static/images/trans.gif" alt="skip to content" border="0" id="skiptocontent"/></a></div>
+      <!--  Utility Menu  -->
+
+      <div id="utility-menu">
+        <!--  Search Box  -->
+        <div id="searchbox">
+          <form id="searchform" method="get" name="searchform" action="/pypi">
+            <input type="hidden" name=":action" value="search"/>
+            <div id="search">
+              <input class="input-text" id="term" name="term" autofocus="autofocus"/>
+              <input class="input-button" type="submit" name="submit" value="search" id="submit"/>
+            </div>
+          </form>
+        </div>
+<!-- XXX: reinstate this       <div id="screen-switcher"></div> -->
+      </div>
+      <div id="left-hand-navigation">
+
+        <!--  Main Menu NEED LEVEL TWO HEADER AND FOOTER -->
+        <div id="menu">
+          <ul class="level-one">
+            <li class="selected">
+              <a class="selected" href="/pypi">Package Index</a>
+
+              <ul class="level-two">
+
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=browse">Browse&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=submit_form">Package&nbsp;submission</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=list_classifiers">List&nbsp;trove&nbsp;classifiers</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=rss">RSS&nbsp;(latest&nbsp;40&nbsp;updates)</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=packages_rss">RSS&nbsp;(newest&nbsp;40&nbsp;packages)</a></li>
+                
+        <li><a href="http://wiki.python.org/moin/CheeseShopTutorial">PyPI Tutorial</a></li>
+        <li><a href="/security">PyPI Security</a></li>
+        <li><a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513504">PyPI Support</a></li>
+        <li><a href="https://github.com/pypa/pypi-legacy/issues">PyPI Bug Reports</a></li>
+        <li><a href="http://www.python.org/sigs/distutils-sig/">PyPI Discussion</a></li>
+        <li><a href="http://wiki.python.org/moin/CheeseShopDev">PyPI Developer Info</a></li>
+       </ul>
+
+            </li>
+
+
+
+
+            <li class=""><a href="http://www.python.org/about" class="" title="About The Python Language">About</a>
+            </li><li class=""><a href="http://www.python.org/news" class="" title="">News</a>
+            </li><li class=""><a href="http://www.python.org/doc" class="" title="">Documentation</a>
+            </li><li class=""><a href="http://www.python.org/download" title="">Download</a>
+
+
+            </li><li class=""><a href="http://www.python.org/community" class="" title="">Community</a>
+            </li><li class=""><a href="http://www.python.org/psf" class="" title="Python Software Foundation">Foundation</a>
+            </li><li class=""><a href="http://www.python.org/dev" class="" title="Python Core Language Development">Core Development</a>
+          </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="content-body">
+        <div id="body-main">
+          <div id="content">
+
+            <div id="breadcrumb">
+              <a href="/pypi">Package Index</a>
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/twitter">twitter</a>
+              
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/twitter/1.17.1">1.17.1</a>
+              
+
+            </div>
+
+            <div id="document-floating">
+
+            <div id="document-navigation" style="overflow-y: auto; max-height: 15em; overflow-x: hidden;">
+		
+                  <h4>Not Logged In</h4>
+
+                  <ul>
+		    
+                    <li><a href="/pypi?%3Aaction=login_form">Login</a></li>
+                    <li><a href="/pypi?%3Aaction=register_form">Register</a></li>
+                    <li><a href="/pypi?%3Aaction=forgotten_password_form">Lost Login?</a></li>
+		    <li>Use <a href="/pypi?:action=openid">OpenID</a>
+                      
+                        <a style="border: none;" href="/pypi?:action=login&amp;provider=Launchpad"><img width="16" height="16" alt="Launchpad" src="https://launchpad.net/@@/launchpad.png" title="Launchpad"/></a>
+                      
+                    </li>
+                    <li><a href="/google_login">Login with Google<img width="16" height="16" src="https://www.google.com/favicon.ico" title="Google Login" alt="Google Login"/></a></li>
+                  </ul>
+
+		
+
+		
+
+                <div id="statusdiv">
+                </div>
+            </div>
+        </div>
+        
+
+
+            <div class="section">
+              <h1>twitter 1.17.1</h1>
+
+              
+<div id="download-button">
+ 
+ <a class="button green" style="float:right;" href="#downloads">Downloads &darr;</a>
+</div>
+
+<p style="font-style: italic">An API and command-line toolset for Twitter (twitter.com)</p>
+
+
+
+
+
+
+
+
+Python Twitter Tools<br>====================<br><br>[![Build Status](https://travis-ci.org/sixohsix/twitter.svg)](https://travis-ci.org/sixohsix/twitter) [![Coverage Status](https://coveralls.io/repos/sixohsix/twitter/badge.png?branch=master)](https://coveralls.io/r/sixohsix/twitter?branch=master)<br><br>The Minimalist Twitter API for Python is a Python API for Twitter,<br>everyone's favorite Web 2.0 Facebook-style status updater for people<br>on the go.<br><br>Also included is a twitter command-line tool for getting your friends'<br>tweets and setting your own tweet from the safety and security of your<br>favorite shell and an IRC bot that can announce Twitter updates to an<br>IRC channel.<br><br>For more information, after installing the `twitter` package:<br><br> * import the `twitter` package and run help() on it<br> * run `twitter -h` for command-line tool help<br><br><br>twitter - The Command-Line Tool<br>-------------------------------<br><br>The command-line tool lets you do some awesome things:<br><br> * view your tweets, recent replies, and tweets in lists<br> * view the public timeline<br> * follow and unfollow (leave) friends<br> * various output formats for tweet information<br><br>The bottom line: type `twitter`, receive tweets.<br><br><br><br>twitterbot - The IRC Bot<br>------------------------<br><br>The IRC bot is associated with a twitter account (either your own account or an<br>account you create for the bot). The bot announces all tweets from friends<br>it is following. It can be made to follow or leave friends through IRC /msg<br>commands.<br><br><br>twitter-log<br>-----------<br><br>`twitter-log` is a simple command-line tool that dumps all public<br>tweets from a given user in a simple text format. It is useful to get<br>a complete offsite backup of all your tweets. Run `twitter-log` and<br>read the instructions.<br><br>twitter-archiver and twitter-follow<br>-----------------------------------<br><br>twitter-archiver will log all the tweets posted by any user since they<br>started posting. twitter-follow will print a list of all of all the<br>followers of a user (or all the users that user follows).<br><br><br>Programming with the Twitter api classes<br>========================================<br><br>The Twitter and TwitterStream classes are the key to building your own<br>Twitter-enabled applications.<br><br><br>The Twitter class<br>-----------------<br><br>The minimalist yet fully featured Twitter API class.<br><br>Get RESTful data by accessing members of this class. The result<br>is decoded python objects (lists and dicts).<br><br>The Twitter API is documented at:<br><br>**[https://dev.twitter.com/overview/documentation](https://dev.twitter.com/overview/documentation)**<br><br>Examples:<br>```python<br>from twitter import *<br><br>t = Twitter(<br>    auth=OAuth(token, token_key, con_secret, con_secret_key))<br><br># Get your "home" timeline<br>t.statuses.home_timeline()<br><br># Get a particular friend's timeline<br>t.statuses.user_timeline(screen_name="billybob")<br><br># to pass in GET/POST parameters, such as `count`<br>t.statuses.home_timeline(count=5)<br><br># to pass in the GET/POST parameter `id` you need to use `_id`<br>t.statuses.oembed(_id=1234567890)<br><br># Update your status<br>t.statuses.update(<br>    status="Using @sixohsix's sweet Python Twitter Tools.")<br><br># Send a direct message<br>t.direct_messages.new(<br>    user="billybob",<br>    text="I think yer swell!")<br><br># Get the members of tamtar's list "Things That Are Rad"<br>t.lists.members(owner_screen_name="tamtar", slug="things-that-are-rad")<br><br># An *optional* `_timeout` parameter can also be used for API<br># calls which take much more time than normal or twitter stops<br># responding for some reason:<br>t.users.lookup(<br>    screen_name=','.join(A_LIST_OF_100_SCREEN_NAMES), _timeout=1)<br><br># Overriding Method: GET/POST<br># you should not need to use this method as this library properly<br># detects whether GET or POST should be used, Nevertheless<br># to force a particular method, use `_method`<br>t.statuses.oembed(_id=1234567890, _method='GET')<br><br># Send images along with your tweets:<br># - first just read images from the web or from files the regular way:<br>with open("example.png", "rb") as imagefile:<br>    imagedata = imagefile.read()<br># - then upload medias one by one on Twitter's dedicated server<br>#   and collect each one's id:<br>t_up = Twitter(domain='upload.twitter.com',<br>    auth=OAuth(token, token_key, con_secret, con_secret_key))<br>id_img1 = t_up.media.upload(media=imagedata)["media_id_string"]<br>id_img2 = t_up.media.upload(media=imagedata)["media_id_string"]<br># - finally send your tweet with the list of media ids:<br>t.statuses.update(status="PTT ★", media_ids=",".join([id_img1, id_img2]))<br><br># Or send a tweet with an image (or set a logo/banner similarily)<br># using the old deprecated method that will probably disappear some day<br>params = {"media[]": imagedata, "status": "PTT ★"}<br># Or for an image encoded as base64:<br>params = {"media[]": base64_image, "status": "PTT ★", "_base64": True}<br>t.statuses.update_with_media(**params)<br>```<br><br>Searching Twitter:<br>```python<br># Search for the latest tweets about #pycon<br>t.search.tweets(q="#pycon")<br>```<br><br><br>Retrying after reaching the API rate limit<br>------------------------------------------<br><br>Simply create the `Twitter` instance with the argument `retry=True`, then the<br>HTTP error codes 429, 502, 503 and 504 will cause a retry of the last request.<br>If retry is an integer, it defines the number of retries attempted.<br><br><br>Using the data returned<br>-----------------------<br><br>Twitter API calls return decoded JSON. This is converted into<br>a bunch of Python lists, dicts, ints, and strings. For example:<br><br>```python<br>x = twitter.statuses.home_timeline()<br><br># The first 'tweet' in the timeline<br>x[0]<br><br># The screen name of the user who wrote the first 'tweet'<br>x[0]['user']['screen_name']<br>```<br><br>Getting raw XML data<br>--------------------<br><br>If you prefer to get your Twitter data in XML format, pass<br>format="xml" to the Twitter object when you instantiate it:<br><br>```python<br>twitter = Twitter(format="xml")<br>```<br><br>The output will not be parsed in any way. It will be a raw string<br>of XML.<br><br><br>The TwitterStream class<br>-----------------------<br><br>The TwitterStream object is an interface to the Twitter Stream<br>API. This can be used pretty much the same as the Twitter class<br>except the result of calling a method will be an iterator that<br>yields objects decoded from the stream. For example::<br><br>```python<br>twitter_stream = TwitterStream(auth=OAuth(...))<br>iterator = twitter_stream.statuses.sample()<br><br>for tweet in iterator:<br>    ...do something with this tweet...<br>```<br><br>Per default the ``TwitterStream`` object uses<br>[public streams](https://dev.twitter.com/docs/streaming-apis/streams/public)<br>If you want to use one of the other<br>[streaming APIs](https://dev.twitter.com/docs/streaming-apis) specify the URL<br>manually:<br><br>- [Public streams](https://dev.twitter.com/docs/streaming-apis/streams/public): stream.twitter.com<br>- [User streams](https://dev.twitter.com/docs/streaming-apis/streams/user): userstream.twitter.com<br>- [Site streams](https://dev.twitter.com/docs/streaming-apis/streams/site): sitestream.twitter.com<br><br>Note that you require the proper<br>[permissions](https://dev.twitter.com/docs/application-permission-model) to<br>access these streams. E.g. for direct messages your<br>[application](https://dev.twitter.com/apps) needs the "Read, Write &amp; Direct<br>Messages" permission.<br><br>The following example demonstrates how to retrieve all new direct messages<br>from the user stream:<br><br>```python<br>auth = OAuth(<br>    consumer_key='[your consumer key]',<br>    consumer_secret='[your consumer secret]',<br>    token='[your token]',<br>    token_secret='[your token secret]'<br>)<br>twitter_userstream = TwitterStream(auth=auth, domain='userstream.twitter.com')<br>for msg in twitter_userstream.user():<br>    if 'direct_message' in msg:<br>        print msg['direct_message']['text']<br>```<br><br>The iterator will yield until the TCP connection breaks. When the<br>connection breaks, the iterator yields `{'hangup': True}`, and<br>raises `StopIteration` if iterated again.<br><br>Similarly, if the stream does not produce heartbeats for more than<br>90 seconds, the iterator yields `{'hangup': True,<br>'heartbeat_timeout': True}`, and raises `StopIteration` if<br>iterated again.<br><br>The `timeout` parameter controls the maximum time between<br>yields. If it is nonzero, then the iterator will yield either<br>stream data or `{'timeout': True}` within the timeout period. This<br>is useful if you want your program to do other stuff in between<br>waiting for tweets.<br><br>The `block` parameter sets the stream to be fully non-blocking. In<br>this mode, the iterator always yields immediately. It returns<br>stream data, or `None`. Note that `timeout` supercedes this<br>argument, so it should also be set `None` to use this mode, <br>and non-blocking can potentially lead to 100% CPU usage.<br><br>Twitter Response Objects<br>------------------------<br><br>Response from a twitter request. Behaves like a list or a string<br>(depending on requested format) but it has a few other interesting<br>attributes.<br><br>`headers` gives you access to the response headers as an<br>httplib.HTTPHeaders instance. You can do<br>`response.headers.get('h')` to retrieve a header.<br><br>Authentication<br>--------------<br><br>You can authenticate with Twitter in three ways: NoAuth, OAuth, or<br>OAuth2 (app-only). Get help() on these classes to learn how to use them.<br><br>OAuth and OAuth2 are probably the most useful.<br><br><br>Working with OAuth<br>------------------<br><br>Visit the Twitter developer page and create a new application:<br><br>**[https://dev.twitter.com/apps/new](https://dev.twitter.com/apps/new)**<br><br>This will get you a CONSUMER_KEY and CONSUMER_SECRET.<br><br>When users run your application they have to authenticate your app<br>with their Twitter account. A few HTTP calls to twitter are required<br>to do this. Please see the twitter.oauth_dance module to see how this<br>is done. If you are making a command-line app, you can use the<br>oauth_dance() function directly.<br><br>Performing the "oauth dance" gets you an ouath token and oauth secret<br>that authenticate the user with Twitter. You should save these for<br>later so that the user doesn't have to do the oauth dance again.<br><br>read_token_file and write_token_file are utility methods to read and<br>write OAuth token and secret key values. The values are stored as<br>strings in the file. Not terribly exciting.<br><br>Finally, you can use the OAuth authenticator to connect to Twitter. In<br>code it all goes like this:<br><br>```python<br>from twitter import *<br><br>MY_TWITTER_CREDS = os.path.expanduser('~/.my_app_credentials')<br>if not os.path.exists(MY_TWITTER_CREDS):<br>    oauth_dance("My App Name", CONSUMER_KEY, CONSUMER_SECRET,<br>                MY_TWITTER_CREDS)<br><br>oauth_token, oauth_secret = read_token_file(MY_TWITTER_CREDS)<br><br>twitter = Twitter(auth=OAuth(<br>    oauth_token, oauth_token_secret, CONSUMER_KEY, CONSUMER_SECRET))<br><br># Now work with Twitter<br>twitter.statuses.update(status='Hello, world!')<br>```<br><br>Working with OAuth2<br>-------------------<br><br>Twitter only supports the application-only flow of OAuth2 for certain<br>API endpoints. This OAuth2 authenticator only supports the application-only<br>flow right now.<br><br>To authenticate with OAuth2, visit the Twitter developer page and create a new<br>application:<br><br>**[https://dev.twitter.com/apps/new](https://dev.twitter.com/apps/new)**<br><br>This will get you a CONSUMER_KEY and CONSUMER_SECRET.<br><br>Exchange your CONSUMER_KEY and CONSUMER_SECRET for a bearer token using the<br>oauth2_dance function.<br><br>Finally, you can use the OAuth2 authenticator and your bearer token to connect<br>to Twitter. In code it goes like this::<br><br>```python<br>twitter = Twitter(auth=OAuth2(bearer_token=BEARER_TOKEN))<br><br># Now work with Twitter<br>twitter.search.tweets(q='keyword')<br>```<br><br>License<br>=======<br><br>Python Twitter Tools are released under an MIT License.
+
+<a name="downloads">&nbsp;</a>
+<table class="list" style="margin-bottom: 10px;">
+<tr>
+  <th>File</th>
+  <th>Type</th>
+  <th>Py Version</th>
+  <th>Uploaded on</th>
+  <th style="text-align: right;">Size</th>
+</tr>
+
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/ea/1e/ffb8dafa9539c68bd0994d98c1cf55760b2efe0e29189cd486bf4f23907d/twitter-1.17.1-py2.py3-none-any.whl#md5=ca1aa70131eb3b5a71d3ad76c7f030f5">twitter-1.17.1-py2.py3-none-any.whl</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=ca1aa70131eb3b5a71d3ad76c7f030f5">md5</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    2.7
+  </td>
+  <td>2015-07-28</td>
+  <td style="text-align: right;">53KB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/75/30/86a053e40068daece37a8167edc710fd6630ee58d14bcf2aa0997d79bfd4/twitter-1.17.1.tar.gz#md5=65219549f09a030719bac6e20b12c3eb">twitter-1.17.1.tar.gz</a>
+      (<a title="MD5 Digest" href="/pypi?:action=show_md5&amp;digest=65219549f09a030719bac6e20b12c3eb">md5</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Source
+  </td>
+  <td>
+    
+  </td>
+  <td>2015-07-28</td>
+  <td style="text-align: right;">42KB</td>
+
+</tr>
+
+<tr><td id="last" colspan="6"/></tr>
+  </table>
+
+
+
+<ul class="nodot">
+ <li>
+  <strong>Author:</strong>
+  <span>Mike Verdone</span>
+ </li>
+
+ 
+
+ 
+
+<!-- The <th> elements below are a terrible terrible hack for setuptools -->
+ <li>
+  <strong>Home Page:</strong>
+  <!-- <th>Home Page -->
+  <a href="http://mike.verdone.ca/twitter/">http://mike.verdone.ca/twitter/</a>
+ </li>
+
+
+ 
+
+ 
+
+
+ <li>
+  <strong>Keywords:</strong>
+  <span>twitter,IRC,command-line tools,web 2.0</span>
+ </li>
+
+ <li>
+  <strong>License:</strong>
+  
+  
+  <span>MIT License</span>
+  
+ </li>
+
+ 
+
+<!-- TODO: add link to products in follow dependencies... -->
+ 
+ 
+ 
+
+ <li>
+  <strong>Categories</strong>
+  <ul class="nodot">
+   <li>
+    <a href="/pypi?:action=browse&amp;c=5">Development Status :: 5 - Production/Stable</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=8">Environment :: Console</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=32">Intended Audience :: End Users/Desktop</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=69">License :: OSI Approved :: MIT License</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=104">Natural Language :: English</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=156">Operating System :: OS Independent</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=531">Programming Language :: Python :: 2.6</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=532">Programming Language :: Python :: 2.7</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=538">Programming Language :: Python :: 3.2</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=566">Programming Language :: Python :: 3.3</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=587">Programming Language :: Python :: 3.4</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=235">Topic :: Communications :: Chat :: Internet Relay Chat</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=329">Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=501">Topic :: Utilities</a>
+   </li>
+  </ul>
+ </li>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ <li>
+  <strong>Package Index Owner:</strong>
+  <span>sixohsix</span>
+ </li>
+
+ 
+
+ <li>
+  <strong><a href="https://github.com/edumbill/doap/wiki">DOAP</a> record:</strong>
+  <a href="/pypi?:action=doap&amp;name=twitter&amp;version=1.17.1">twitter-1.17.1.xml</a>
+ </li>
+
+</ul>
+
+
+
+
+
+            </div>
+
+
+          </div>
+          <div id="footer">
+            <div id="credits">
+              <div style="float: left; margin-right: 1em;" id="badges">
+                
+                <img src="https://img.shields.io/badge/ipv6-go!-green.svg" alt="ipv6 ready" title="ipv6 ready" border="0"/><br/>
+                <img src="https://img.shields.io/badge/http2-go!-green.svg" alt="http2 ready" title="http2 ready" border="0"/>
+                
+              </div>
+              <div style="float: right" id="donations">
+                <a href="http://www.python.org/about/website">Website maintained by the Python community</a><br/>
+                <a href="https://www.fastly.com/" title="Real-time CDN services provided by Fastly">Real-time CDN by Fastly</a> / 
+                <a href="http://developer.rackspace.com/" title="Server hosting by Rackspace Open Source support">Hosting by Rackspace</a><br/>
+                <a href="https://aws.amazon.com/s3/" title="Object storage provided by Amazon S3">Object storage by Amazon S3</a> /
+                <a href="http://www.timparkin.co.uk/" title="Design by Tim Parkin, Yorkshire man, photographer and developer">Design by Tim Parkin</a>
+              </div>
+            </div>
+            Copyright © 1990-2016, <a href="http://www.python.org/psf">Python Software Foundation</a><br/>
+            <a href="http://www.python.org/about/legal">Legal Statements</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55961911-1', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+      </script>
+      
+
+      <script type="text/javascript" src="//statuspage-production.s3.amazonaws.com/se-v2.js">
+      </script>
+      <script type="text/javascript">
+        var sp = new StatusPage.page({ page : '2p66nmmycsj3' });
+        sp.summary({
+          // <![CDATA[
+          success: function(data) {
+            var div = document.getElementById('statusdiv');
+            var reports = "</br><h4 id='statusbox'>Status</h4>\n";
+            var outage = 0;
+            var maintenance = 0;
+            for (i in data.incidents) {
+              var incident = data.incidents[i];
+              var message, status = incident.status;
+              if (status === 'scheduled') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' scheduled.</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status === 'in_progress') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' is currently in progress.' + '</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status !== 'resolved' && status !== 'postmortem' && status !== 'completed') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ': ' + incident.status + '</a></li>\n';
+                reports += message;
+                outage += 1;
+              }
+            }
+            for (i in data.scheduled_maintenances) {
+              var incident = data.scheduled_maintenances[i];
+              var message, status = incident.status;
+              if (status === 'scheduled') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' scheduled.</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status === 'in_progress') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' is currently in progress.' + '</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status !== 'resolved' && status !== 'postmortem' && status !== 'completed') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ': ' + incident.status + '</a></li>\n';
+                reports += message;
+                outage += 1;
+              }
+            }
+            if (outage + maintenance === 0) {
+              reports += "<li><a href='http://status.python.org'>Nothing to report</a></li>";
+            }
+            div.innerHTML=reports;
+            if (outage > 0) {
+              var statusbox = document.getElementById("statusbox");
+              statusbox.style.background = '#FC234A';
+            }
+          }
+          // ]]>
+        });
+      </script>
+
+    </body>
+  </html>
+
