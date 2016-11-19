@@ -155,7 +155,7 @@ while True:
                 os.system("""osascript ./../04_Spotify-scripts/playsad.applescript""")
             if myVar == 'surprise':
                 os.system("""osascript ./../04_Spotify-scripts/playsurprise.applescript""")
-                os.system("""osascript ./../04_Spotify-scripts/sorin.applescript""")
+#                os.system("""osascript ./../04_Spotify-scripts/sorin.applescript""")
             with open("Output.txt", "w") as text_file:
                 text_file.write("%s" % myVar)
 #            print(currFace)
