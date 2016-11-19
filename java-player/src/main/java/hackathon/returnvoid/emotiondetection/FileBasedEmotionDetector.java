@@ -22,7 +22,7 @@ public class FileBasedEmotionDetector implements EmotionDetector {
     private void readFromFile(){
         List<Emotion> emotions = new LinkedList<>();
         try {
-            Runtime.getRuntime().exec("python ../.py");
+            Runtime.getRuntime().exec("python ../03_VideoRecognition/emotion.py");
 
             Scanner fs = new Scanner(new File(emotionFile));
             while(fs.hasNextLine()){

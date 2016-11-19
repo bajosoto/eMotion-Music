@@ -9,13 +9,14 @@ public enum Emotion {
 
     static Emotion fromString(String string){
         switch (string){
-            case "SAD": return SAD;
-            case "HAPPY" : return HAPPY;
-            case "ANGRY" : return ANGRY;
-            case "CONTEMPTED" : return CONTEMPTED;
-            case "DISGUSTED" : return DISGUSTED;
-            case "SURPRISED" : return SURPRISED;
-            case "FEARED" : return FEARED;
+            case "sadness": return SAD;
+            case "happiness" : return HAPPY;
+            case "angry" : return ANGRY;
+            case "contempted" : return CONTEMPTED;
+            case "disgusted" : return DISGUSTED;
+            case "surprised" : return SURPRISED;
+            case "feared" : return FEARED;
+            case "neutral" : return SAD;
             default: throw new IllegalStateException("Emotion: " + string + " unkown string");
         }
     }

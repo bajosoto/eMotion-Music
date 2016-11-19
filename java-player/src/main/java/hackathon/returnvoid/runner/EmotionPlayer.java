@@ -27,7 +27,7 @@ import static hackathon.returnvoid.emotiondetection.Emotion.SAD;
  */
 public class EmotionPlayer implements Runnable {
 
-    private static final String EMOTION_PATH = "src/test/resource/emotion";
+    private static final String EMOTION_PATH = "../03_VideoRecognition/Output.txt";
     private EmotionDetector emotionDetector = new FileBasedEmotionDetector(EMOTION_PATH);
     private AudioPlayer audioPlayer = new AudioPlayerImpl();
     private TextArea textArea;
